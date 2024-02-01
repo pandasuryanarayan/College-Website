@@ -1,0 +1,151 @@
+/* Styling */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 10px;
+}
+
+header {
+    background-color: #FFB095FF;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    line-height: 3vw;
+}
+
+div.HDiv1 {
+  text-align: center;
+  line-height: 2vw;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div.HDiv1 h3 {
+  color: #eb0e0e;
+}
+
+div.HDiv2 {
+  background-color: cyan;
+  color: black;
+  text-align: center;
+  height: 5%;
+  margin: 0px;
+  padding: 0px;
+  line-height: 3vw;
+}
+
+div.HDiv2 nav {
+  background-color: cyan;
+  padding: 2px 0;
+  z-index: 1000;
+  font-size: 1.5rem;
+}
+
+div.HDiv2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.HDiv2 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+div.HDiv2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+main div#Sec1 {
+  padding: 1vw;
+  line-height: 2rem;
+}
+
+main div#Sec2 {
+  border-left: 1px solid blue;
+  flex-basis: 500px;
+}
+
+main div#Sec2 p {
+  padding: 0.5rem;
+}
+
+main p#Para1 {
+  font-size: 3vw;
+}
+
+main p#Para2 {
+  text-align: center;
+  font-size: 25px;
+  font-style: sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+main p#Prin {
+  line-height: 2px;
+  font-size: 14px;
+}
+
+footer {
+    background-color: #FFB095FF;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+footer div.Div1 {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height: 2rem;
+  height: 75%;
+}
+
+footer div.Div1 table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  line-height: 1.3rem;
+}
+
+table tr th {
+  color: #1f0ba1;
+  line-height: 2rem;
+}
+
+table tr td {
+  color: black;
+}
+
+footer div.Div2 {
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+  height: 25%;
+  margin: 0px;
+  padding: 0px;
+  
+}
